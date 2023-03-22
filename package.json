@@ -20,14 +20,16 @@
     "publish": "NODE_ENV=production mtbird publish --token=changeTokenHere",
     "lint": "yarn prettier --write ."
   },
-  "dependencies": {},
+  "dependencies": {
+    "@mtbird/core": "^0.0.3-beta.46"
+  },
   "devDependencies": {
-    "prettier": "^2.8.4",
-    "@mtbird/shared": "^0.0.3-beta.45",
     "@mtbird/cli": "^0.0.3-beta.45",
+    "@mtbird/shared": "^0.0.3-beta.45",
     "@types/react": "^18.0.28",
+    "antd": "^4.23.0",
+    "prettier": "^2.8.4",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "antd": "^4.23.0"
+    "react-dom": "^18.1.0"
   }
 }

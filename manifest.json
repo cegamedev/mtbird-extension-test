@@ -15,5 +15,6 @@
         "feature": "example.tab"
       }
     ]
-  }
+  },
+  "components": ["Audio"]
 }
