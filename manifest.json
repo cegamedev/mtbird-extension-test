@@ -1,0 +1,19 @@
+{
+  "name": "mtbird-extension-test",
+  "title": "拓展测试",
+  "version": "0.0.1",
+  "desc": "这是一个拓展测试项目",
+  "tags": ["拓展案例"],
+  "contributes": {
+    "toolbars": [
+      {
+        "sort": 3,
+        "params": {
+          "name": "拓展案例"
+        },
+        "link": "feature",
+        "feature": "example.tab"
+      }
+    ]
+  }
+}
